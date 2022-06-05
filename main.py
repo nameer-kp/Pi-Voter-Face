@@ -51,6 +51,3 @@ def detect_face():
         print ('Recognized:false')
         conn.close()
         return (jsonify(error=True))
-    
-if __name__=='__main__':
-    app.run(debug=True)
